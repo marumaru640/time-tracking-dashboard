@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="main.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Time tracking dashboard</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <main>
+      <section class="container">
+        <div class="profile-card">
+          <div class="profile-info">
+            <img src="images/image-jeremy.png" alt="jeremy" class="jeremy" />
+            <div class="profile-info-body">
+              <p>Report for</p>
+              <h1>Jeremy Robson</h1>
+            </div>
+          </div>
+          <div class="timeframe-options">
+            <button data-timeframe="daily">Daily</button>
+            <button data-timeframe="weekly" class="active">Weekly</button>
+            <button data-timeframe="monthly">Monthly</button>
+          </div>
+        </div>
+
+        <div class="card work-card">
+          <div class="card-header"></div>
+
+          <div class="card-bottom">
+            <div class="card-bottom-header">
+              <h2 class="card-type">Work</h2>
+              <img
+                src="images/icon-ellipsis.svg"
+                alt="ellipsis-icon"
+                class="ellipsis-icon"
+              />
+            </div>
+
+            <div class="card-bottom-container">
+              <h3 class="current-hours">hrs</h3>
+              <p class="previous-hours">Previous -hrs</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card play-card">
+          <div class="card-header"></div>
+
+          <div class="card-bottom">
+            <div class="card-bottom-header">
+              <h2 class="card-type">Work</h2>
+              <img
+                src="images/icon-ellipsis.svg"
+                alt="ellipsis-icon"
+                class="ellipsis-icon"
+              />
+            </div>
+
+            <div class="card-bottom-container">
+              <h3 class="current-hours">hrs</h3>
+              <p class="previous-hours">Previous -hrs</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card study-card">
+          <div class="card-header"></div>
+
+          <div class="card-bottom">
+            <div class="card-bottom-header">
+              <h2 class="card-type">Work</h2>
+              <img
+                src="images/icon-ellipsis.svg"
+                alt="ellipsis-icon"
+                class="ellipsis-icon"
+              />
+            </div>
+
+            <div class="card-bottom-container">
+              <h3 class="current-hours">hrs</h3>
+              <p class="previous-hours">Previous -hrs</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card exercise-card">
+          <div class="card-header"></div>
+
+          <div class="card-bottom">
+            <div class="card-bottom-header">
+              <h2 class="card-type">Work</h2>
+              <img
+                src="images/icon-ellipsis.svg"
+                alt="ellipsis-icon"
+                class="ellipsis-icon"
+              />
+            </div>
+
+            <div class="card-bottom-container">
+              <h3 class="current-hours">hrs</h3>
+              <p class="previous-hours">Previous -hrs</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card social-card">
+          <div class="card-header"></div>
+
+          <div class="card-bottom">
+            <div class="card-bottom-header">
+              <h2 class="card-type">Work</h2>
+              <img
+                src="images/icon-ellipsis.svg"
+                alt="ellipsis-icon"
+                class="ellipsis-icon"
+              />
+            </div>
+
+            <div class="card-bottom-container">
+              <h3 class="current-hours">hrs</h3>
+              <p class="previous-hours">Previous -hrs</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card self-care-card">
+          <div class="card-header"></div>
+
+          <div class="card-bottom">
+            <div class="card-bottom-header">
+              <h2 class="card-type">Work</h2>
+              <img
+                src="images/icon-ellipsis.svg"
+                alt="ellipsis-icon"
+                class="ellipsis-icon"
+              />
+            </div>
+
+            <div class="card-bottom-container">
+              <h3 class="current-hours">hrs</h3>
+              <p class="previous-hours">Previous -hrs</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://x.com/jnyngxi188584">Maru</a>.
+      </p>
+    </footer>
+  </body>
+</html>
